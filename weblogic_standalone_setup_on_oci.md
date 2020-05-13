@@ -1,4 +1,4 @@
-# WebLogic 14c Installation on OCI Guide
+# Oracle WebLogic Server Installation on OCI Guide
 
 ## Pre-requisite
 

@@ -310,7 +310,7 @@ Click on 'machine2' -> 'Node Manager' to update the IP of machine 2 with actual 
 
 ![cluster62](images/weblogic_install/cluster62.jpg)  
 
-Disable host name verification for all managed servers by clicking on each managed server name on the left menu and click on 'SSL' tab, 'Advanced' and select Hostname Verification as 'None'. This is becasuse the auto generated certificate is for weblogic1 and weblogic2 is using the same certificate from the same boot volume and doesn't match the name on certificate as weblogic1.  
+Disable host name verification for all managed servers (including admin server) by clicking on each managed server name on the left menu and click on 'SSL' tab, 'Advanced' and select Hostname Verification as 'None'. This is becasuse the auto generated certificate is for weblogic1 and weblogic2 is using the same certificate from the same boot volume and doesn't match the name on certificate as weblogic1.  
 
 ![cluster63](images/weblogic_install/cluster63.jpg)  
 

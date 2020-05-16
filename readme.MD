@@ -16,14 +16,14 @@ The rest of the guide assume you have generated a key pair named: id_rsa, with i
 
 In the following steps, you will be setting up a weblogic cluster that spans across two OCI Compute. The steps you will be performing includes:
 
-- Provision first VM (weblogic1) on OCI using Oracle Cloud Developer Image  
+- Provision first VM (weblogic1) on OCI using Oracle Linux 7.7 Image  
 - Install WebLogic Binary on the first VM  
 - Configure a new clustered WebLogic Domain with 2 managed servers  
 - Configure node manager for the first VM  
 - Clone the boot volume of the first VM to be the boot volume of the second VM, and provision second VM (weblogic2) using the boot volume cloned  
 - Prepare the second VM to join WebLogic Cluster  
 
-## Step 1: Provision first VM weblogic1 on OCI using Oracle Cloud Developer images
+## Step 1: Provision first VM weblogic1 on OCI using Oracle Linux 7.7 images
 
 Now login to your Oracle cloud tenancy from http://cloud.oracle.com with your tenancy ID, username and password.  
 
@@ -35,13 +35,9 @@ Click on 'Create Instance' below:
 
 ![cluster2](images/weblogic_install/cluster2.jpg)  
 
-Name the new compute instance as 'weblogic1' and click change image:
+Name the new compute instance as 'weblogic1' and leave the default image as Oracle Linux:
 
-![cluster3](images/weblogic_install/cluster3a.jpg)  
-
-change the default image as Oracle Linux into Oracle Cloud Developer Image:
-
-![cluster3](images/weblogic_install/cluster3b.jpg)  
+![cluster3](images/weblogic_install/cluster3.jpg)
 
 Scroll down to change the Shape from default to VM.Standard 2.4 with 4 OCPU for optimal performance for development environment. For performance testing, choose a shape that matches the production environment. Click on 'Change Shape':
 

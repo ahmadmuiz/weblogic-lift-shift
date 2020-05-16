@@ -1,4 +1,4 @@
-# Oracle WebLogic Server Installation on OCI Guide
+# How to Install Oracle WebLogic Server on OCI Compute Linux
 
 ## Pre-requisite
 

@@ -113,6 +113,8 @@ Enter source CIDR as '0.0.0.0/0' and destination port as '7001', and click 'Add 
 
 ![cluster36](images/weblogic_install/cluster36.jpg)  
 
+Repeat the same process for port 7003
+
 ## Step 3: Start WebLogic Server
 
 Before we start the WebLogic server we need to create directory to store boot.properties files that store WebLogic Admin and its password:

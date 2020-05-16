@@ -7,7 +7,7 @@ The easist way is to use MobaTerm (https://mobaxterm.mobatek.net/download.html).
 Now we configure SSH to enable GUI export by run the following command from SSH:  
 ```
 sudo sed -i 's/^#X11UseLocalhost yes/X11UseLocalhost no/' /etc/ssh/sshd_config
-sudo sed -i 's/^#X11DisplayOffset 10/#X11DisplayOffset 10/' /etc/ssh/sshd_config
+sudo sed -i 's/^#X11DisplayOffset 10/X11DisplayOffset 10/' /etc/ssh/sshd_config
 sudo more /etc/ssh/sshd_config
 ```
 Make sure 3 parameter started with X11 all not in comment mode (if in comment usually started with #)

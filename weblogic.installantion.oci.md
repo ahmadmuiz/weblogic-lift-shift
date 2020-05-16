@@ -129,11 +129,7 @@ java version "1.8.0_251"
 Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
 Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
 ```
-## Step 3: Export Display from OCI
-
-Refer to [here](enable_display_in_oci.md)  
-
-## Step 4: Extract WebLogic Installer
+## Step 3: Extract WebLogic Installer
 
 From install folder, run command: 
 ```

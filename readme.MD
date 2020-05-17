@@ -22,3 +22,5 @@ In the following steps, you will be setting up a weblogic cluster that spans acr
 ### [Step 3: Install WebLogic Binary on the first VM](weblogic.installation.oci.md)
 
 ### [Step 4: Setup Cluster WebLogic Domain](weblogic.setup.cluster.oci.md)
+
+### [Step 5: Provision OCI Load Balancer for Oracle WebLogic Cluster](provision.lb.oci.md)

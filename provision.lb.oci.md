@@ -2,7 +2,7 @@
 
 ## Pre-requisite
 
-This guide assumes you have already provisioned separate subnet with its appropriate security lists that allow communication between lb_subnet and WebLogic subnet. It is essential to use separate subnet.
+This guide assumes you have already provisioned separate subnet with its appropriate security lists that allow communication between lb_subnet and WebLogic subnet. It is essential to use **separate subnet.**
 
 ## Provision OCI Load Balancer
 

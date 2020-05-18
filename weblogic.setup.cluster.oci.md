@@ -202,7 +202,7 @@ Click 'Monitoring' tab above and verify the machine is reachable.
 
 With node manager working, you can also stop/start managed server ms1 from WebLogic Console directly. We are done with the first VM and can now move on to the next step.
 
-## Step 5: Disbale SSL Hostname Verification for Managed Server and Node Manager
+## Step 5: Disable SSL Hostname Verification for Managed Server and Node Manager
 
 We need to disable SSL Hostname verification because the SSL certificate is self signed, to do that open the WebLogic console: <domain_name> -> Environment -> Servers. First we do for AdminServer then later we repeat for ms1 and ms2:
 

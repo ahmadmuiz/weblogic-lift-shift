@@ -8,14 +8,14 @@ This Hands On Lab main purpose is to show how to do lift and shift of existing W
 
 In the following steps, you will be setting up a weblogic cluster that spans across two OCI Compute. The steps you will be performing includes:
 
-- Provision first VM (weblogic1) on OCI using Oracle Linux 7.7 Image  
+- Provision first VM (weblogic1) on OCI using Oracle Linux Image  
 - Install WebLogic Binary on the first VM  
 - Configure a new clustered WebLogic Domain with 2 managed servers  
 - Configure node manager for the first VM  
 - Clone the boot volume of the first VM to be the boot volume of the second VM, and provision second VM (weblogic2) using the boot volume cloned  
 - Prepare the second VM to join WebLogic Cluster  
 
-### [Step 1: Provision first VM weblogic1 on OCI using Oracle Linux 7.7 images](provision.vm.compute.md)
+### [Step 1: Provision first VM weblogic1 on OCI using Oracle Linux Images](provision.vm.compute.md)
 
 ### [Step 2: Enable Remote Display Access from Provisioned VM](enable.remote.display.oci.md)
 

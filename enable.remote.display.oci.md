@@ -33,7 +33,7 @@ Another alternative is to install [TigerVNC viewer](https://github.com/TigerVNC/
 
 To enable this we need to do some configuration on the remote machine:
 ```
-sudo yum install nmap vnc-server -y
+sudo yum install nmap tigervnc-server tigervnc-server-module -y
 sudo yum groups install "Server with GUI" --skip-broken -y
 vncserver
 ```
